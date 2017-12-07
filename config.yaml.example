@@ -1,0 +1,14 @@
+mqtt:
+  address: mqtt.maglab.space
+  client_id: snmp2mqtt
+  realm: maglab/space/snmp
+
+hosts:
+  sensors:
+    host: 192.168.255.3
+    version: 1
+    community: 'password123'
+
+    oids:
+      temperature/front: '1.3.6.1.4.1.3854.1.2.2.1.16.1.3.0'
+      temperature/back: '1.3.6.1.4.1.3854.1.2.2.1.16.1.3.1'

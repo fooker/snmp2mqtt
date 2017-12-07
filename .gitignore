@@ -1,0 +1,9 @@
+# IDE
+/.idea
+
+# Build
+/snmp2mqtt
+
+# Config
+/config.yaml
+
